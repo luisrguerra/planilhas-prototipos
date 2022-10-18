@@ -1,7 +1,9 @@
 :root {
     --verde-login: rgb(55, 150, 56);
     --verde-login-hover: rgb(47 129 48);
-  }
+    --bordaCinza: rgb(0 0 0 / 17%);
+    --laranjaEsqueceuSenha: #e65100;
+}
 
 button.login{
     --bs-btn-bg: var(--verde-login);
@@ -15,17 +17,34 @@ button.login{
 
     width: 100%;
     font-size: 1.4em;
+    margin-bottom:2em;
 }
 
 button.password{
+    --bs-btn-border-color: var(--bordaCinza);
+
     margin-bottom:2em;
     width: 100%;
-    height:2.5em
+    height:2.5em;
+    border-radius: 8px;
+    font-weight: 500;
 }
 
 button.esqueceuSenha{
+    --bs-btn-border-color: var(--bordaCinza);
+
+    --bs-btn-color: var(--laranjaEsqueceuSenha);
+    --bs-btn-hover-bg: var(--laranjaEsqueceuSenha);
+    --bs-btn-hover-border-color: var(--laranjaEsqueceuSenha);
+    --bs-btn-active-bg: var(--laranjaEsqueceuSenha);
+    --bs-btn-active-border-color: var(--laranjaEsqueceuSenha);
+    --bs-btn-disabled-color: var(--laranjaEsqueceuSenha);
+    --bs-btn-disabled-border-color: var(--laranjaEsqueceuSenha);
+
     margin-bottom:2em;
     width: 100%;
-    height:2.5em
+    height:2.5em;
+    border-radius: 8px;
+    font-weight: 500;
     
 }
