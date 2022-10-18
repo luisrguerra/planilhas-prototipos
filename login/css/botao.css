@@ -40,6 +40,7 @@ button.esqueceuSenha{
     --bs-btn-active-border-color: var(--laranjaEsqueceuSenha);
     --bs-btn-disabled-color: var(--laranjaEsqueceuSenha);
     --bs-btn-disabled-border-color: var(--laranjaEsqueceuSenha);
+    --bs-btn-focus-shadow-rgb: none;
 
     margin-bottom:2em;
     width: 100%;
