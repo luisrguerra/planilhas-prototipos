@@ -12,8 +12,10 @@ button.login{
     --bs-btn-disabled-border-color: var(--verde-login);
     --bs-btn-hover-border-color: var(--verde-login-hover);
     --bs-btn-active-bg: var(--verde-login-hover);
-    --bs-btn-hover-bg: var(--verde-login);
+    --bs-btn-hover-bg: var(--verde-login-hover);
     --bs-btn-active-border-color: var(--verde-login-hover);
+
+    --bs-btn-focus-shadow-rgb: none;
 
     width: 100%;
     font-size: 1.4em;
@@ -22,6 +24,8 @@ button.login{
 
 button.password{
     --bs-btn-border-color: var(--bordaCinza);
+
+    --bs-btn-focus-shadow-rgb: none;
 
     margin-bottom:2em;
     width: 100%;
