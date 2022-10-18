@@ -1,3 +1,6 @@
-.form-control{
-    
+input.form-control{
+    box-shadow: none !important;
+}
+input.form-control:active, input.form-control:focus{
+    border-color:#007bff;
 }
