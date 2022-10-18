@@ -3,7 +3,7 @@
     --verdeLoginHover: rgb(52 137 52);
     --bordaCinza: rgb(0 0 0 / 17%);
     --laranjaEsqueceuSenha: #e65100;
-    --azulBotao: #007bff;
+    --azulBotao: rgb(10 118 235);
 }
 
 button.login{
