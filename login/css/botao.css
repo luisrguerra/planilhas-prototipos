@@ -1,6 +1,6 @@
 :root {
     --verdeLogin: rgb(55, 150, 56);
-    --verde-login-hover: rgb(47 129 48);
+    --verdeLoginHover: rgb(47 129 48);
     --bordaCinza: rgb(0 0 0 / 17%);
     --laranjaEsqueceuSenha: #e65100;
     --azulBotao: #007bff;
@@ -11,10 +11,10 @@ button.login{
     --bs-btn-border-color: var(--verdeLogin);
     --bs-btn-disabled-bg: var(--verdeLogin);
     --bs-btn-disabled-border-color: var(--verdeLogin);
-    --bs-btn-hover-border-color: var(--verde-login-hover);
-    --bs-btn-active-bg: var(--verde-login-hover);
-    --bs-btn-hover-bg: var(--verde-login-hover);
-    --bs-btn-active-border-color: var(--verde-login-hover);
+    --bs-btn-hover-border-color: var(--verdeLoginHover);
+    --bs-btn-active-bg: var(--verdeLoginHover);
+    --bs-btn-hover-bg: var(--verdeLoginHover);
+    --bs-btn-active-border-color: var(--verdeLoginHover);
 
     --bs-btn-focus-shadow-rgb: none;
 
@@ -41,21 +41,18 @@ button.password:hover{
 }
 
 button.esqueceuSenha{
-    --bs-btn-border-color: var(--bordaCinza);
-
-    --bs-btn-color: var(--laranjaEsqueceuSenha);
-    --bs-btn-hover-bg: var(--laranjaEsqueceuSenha);
-    --bs-btn-hover-border-color: var(--laranjaEsqueceuSenha);
-    --bs-btn-active-bg: var(--laranjaEsqueceuSenha);
-    --bs-btn-active-border-color: var(--laranjaEsqueceuSenha);
-    --bs-btn-disabled-color: var(--laranjaEsqueceuSenha);
-    --bs-btn-disabled-border-color: var(--laranjaEsqueceuSenha);
-    --bs-btn-focus-shadow-rgb: none;
-
     margin-bottom:2em;
     width: 100%;
     height:2.5em;
     border-radius: 8px;
     font-weight: 500;
-    
+    background: none;
+    border-color: var(--bordaCinza);
+    border-width: 1px;
+    color: var(--laranjaEsqueceuSenha);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button.esqueceuSenha:hover{
+    border: solid 1px var(--laranjaEsqueceuSenha);
 }
