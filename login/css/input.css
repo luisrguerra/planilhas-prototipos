@@ -4,3 +4,7 @@ input.form-control{
 input.form-control:active, input.form-control:focus{
     border-color:#007bff;
 }
+
+.form-floating>label{
+    color:#424242;
+}
