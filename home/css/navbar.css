@@ -7,3 +7,27 @@
     font-weight: 500;
     font-size: 1.2em;
 }
+
+.nav-link.retornar:hover{
+    color:#0e53ba;
+}
+
+.nav-item button.icone{
+    border: none;
+    background: none;
+    color: rgb(0 0 0 / 50%);
+    margin-bottom: -16px;
+    min-width: 7em;
+}
+
+.nav-item button.icone.selecionado{
+    border: none;
+    background: none;
+    color: rgb(0 0 0 / 90%);
+    border-bottom: solid 3px #E87830;
+}
+
+.nav-item button.icone:hover{
+    background: none;
+    color: rgb(0 0 0 / 90%);
+}
