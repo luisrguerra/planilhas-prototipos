@@ -21,10 +21,13 @@
 
 <body>
 
+<!--Barra superior-->
 <nav class="navbar navbar-light bg-light login">
+    <!--Logotipo-->
     <a class="navbar-brand" href="#">
       <img style="margin-left: 1em;" src="./img/logo-navbar-otimizado.svg" height="41" alt="">
     </a>
+    <!--Botão de retornar-->
     <ul class="nav justify-content-end">
         <li class="nav-item">
            <a class="nav-link active retornar" href="#">Retornar <i class="fa-solid fa-chevron-right"></i></a>
@@ -32,25 +35,28 @@
     </ul>
 </nav>
 
+<!--Conteudo pagina-->
 <div style="margin-top:4em; max-width: 30em;" class="container">
-
+    
+    <!--Titulo-->
     <h4 style="margin-bottom:1em; padding-left: 0.5em;">Login</h4>
     
     <!--Input Cnpj-->
     <div style="margin-bottom:1em" class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput"><i class="fa-solid fa-building"></i> Cnpj</label>
+        <input type="email" class="form-control" placeholder=" ">
+        <label><i class="fa-solid fa-building"></i> Cnpj</label>
     </div>
 
     <!--Input Senha-->
     <div  style="margin-bottom:1em" class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword"><i class="fa-solid fa-key"></i> Senha</label>
+        <input type="password" class="form-control" placeholder=" ">
+        <label ><i class="fa-solid fa-key"></i> Senha</label>
     </div>
-
+    
+    <!--Checkbox mantenha conectado-->
     <div style="margin-bottom:1em" class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">Mantenha a minha conta salva</label>
+        <input class="form-check-input" type="checkbox" checked>
+        <label class="form-check-label">Mantenha a minha conta salva</label>
     </div>
     
     <!--Checkbox senha salva-->
