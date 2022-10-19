@@ -17,7 +17,7 @@
     background: none;
     color: rgb(0 0 0 / 50%);
     margin-bottom: -16px;
-    min-width: 7em;
+    min-width: 5em;
 }
 
 .nav-item button.icone.selecionado{
@@ -30,4 +30,30 @@
 .nav-item button.icone:hover{
     background: none;
     color: rgb(0 0 0 / 90%);
+}
+
+.nav.centralizar{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 545px){
+    .nav.centralizar{
+        position: relative;
+        left: 0%;
+        transform: none;
+        margin-inline: auto;
+    }
+    .nav-item button.icone{
+        margin-bottom: -16px;
+        min-width: 4em;
+    }
+}
+
+@media only screen and (max-width: 359px){
+    .nav-item button.icone{
+        margin-bottom: -9px;
+        min-width: 4em;
+    }
 }
