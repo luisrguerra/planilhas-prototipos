@@ -7,3 +7,7 @@
     font-weight: 500;
     font-size: 1.2em;
 }
+
+.nav-link.retornar:hover{
+    color:#0e53ba;
+}
