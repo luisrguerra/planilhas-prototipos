@@ -8,6 +8,10 @@
     font-size: 1.2em;
 }
 
+.nav-link.retornar.antes{
+    display: none;
+}
+
 .nav-link.retornar:hover{
     color:#0e53ba;
 }
@@ -51,9 +55,17 @@
     }
 }
 
-@media only screen and (max-width: 359px){
+@media only screen and (max-width: 449px){
     .nav-item button.icone{
         margin-bottom: -9px;
         min-width: 4em;
+    }
+
+    .nav-link.retornar{
+        display:none;
+    }
+
+    .nav-link.retornar.antes{
+        display:initial;
     }
 }
