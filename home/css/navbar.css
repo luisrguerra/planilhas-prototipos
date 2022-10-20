@@ -3,17 +3,18 @@
     border-bottom: solid 1px rgb(0 0 0 / 12%);
 }
 
-.nav-link.retornar{
+.nav-link.logout{
     font-weight: 500;
     font-size: 1.2em;
+    color:#5d5d5d;
 }
 
-.nav-link.retornar.antes{
+.nav-link.logout.antes{
     display: none;
 }
 
-.nav-link.retornar:hover{
-    color:#0e53ba;
+.nav-link.logout:hover{
+    color:#d93025;
 }
 
 .nav-item button.icone{
@@ -61,11 +62,11 @@
         min-width: 4em;
     }
 
-    .nav-link.retornar{
+    .nav-link.logout{
         display:none;
     }
 
-    .nav-link.retornar.antes{
+    .nav-link.logout.antes{
         display:initial;
     }
 }

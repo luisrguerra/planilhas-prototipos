@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Criar nova conta</title>
+        <title>Início</title>
 
         <meta charset="utf-8">
         <!-- Melhoria da visualização em smartphones -->
@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="./css/botao.css">
         <link rel="stylesheet" href="./css/navbar.css">
         <link rel="stylesheet" href="./css/input.css">
+        <link rel="stylesheet" href="./css/home.css">
         
     </head>
 
@@ -28,7 +29,7 @@
 
     <ul class="nav justify-content-end">
         <li class="nav-item">
-           <a class="nav-link active retornar antes" href="https://luisrguerra.github.io/planilhas-prototipos/login/">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
+           <a class="nav-link active logout antes" href="https://luisrguerra.github.io/planilhas-prototipos/login/">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
         </li>
     </ul>
 
@@ -58,7 +59,7 @@
 
     <ul class="nav justify-content-end">
         <li class="nav-item">
-           <a class="nav-link active retornar" href="https://luisrguerra.github.io/planilhas-prototipos/login/">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
+           <a class="nav-link active logout" href="https://luisrguerra.github.io/planilhas-prototipos/login/">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
         </li>
     </ul>
 
@@ -66,19 +67,19 @@
 
 <div style="margin-top:3em; max-width: 95%;" class="container">
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm fit">
       <h4>Nome da Empresa</h4>
       <h5 style="margin-bottom:1em;">Cnpj</h5>
     </div>
-    <div class="col-sm">
+    <div class="col-sm centralizar">
       <h6>01/2022 - 10/2022</h6>
       <h5>Média do Custo Operacional:</h5>
-      <h4 style="color:#d50000;margin-bottom:1em;">R$: -5000,00</h4>
+      <h4 class="saldoNegativo" style="margin-bottom:1em;">R$: -5000,00</h4>
     </div>
-    <div class="col-sm">
+    <div class="col-sm centralizar">
       <h6>10/2022</h6>
-      <h5>Fluxo de Caixa:</h5>
-      <h4 style="color:#1b5e20;margin-bottom:1em;">R$: 1000,00</h4>
+      <h5>Fluxo de Caixa Mensal:</h5>
+      <h4 class="saldoPositivo" style="margin-bottom:1em;">R$: 1000,00</h4>
     </div>
   </div>
 

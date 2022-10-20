@@ -1,0 +1,15 @@
+.col-sm.centralizar{
+  max-width: fit-content;
+  margin-inline: auto;
+}
+.col-sm.fit{
+  max-width: fit-content;
+}
+
+.saldoNegativo{
+  color:#d93025;
+}
+
+.saldoPositivo{
+  color:#188038;
+}
