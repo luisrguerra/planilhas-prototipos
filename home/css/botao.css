@@ -6,6 +6,8 @@ button.cartao{
     padding-top: 0.8em;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
+    margin-right: 0.5em;
+    text-align: left;
 
     transition: color .15s ease-in-out,
     background-color .15s ease-in-out,
