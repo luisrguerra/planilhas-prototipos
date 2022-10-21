@@ -1,0 +1,26 @@
+.col-sm.centralizar{
+  max-width: fit-content;
+  margin-inline: auto;
+}
+.col-sm.fit{
+  max-width: fit-content;
+}
+
+.saldoNegativo{
+  color:#d93025;
+}
+
+.saldoPositivo{
+  color:#188038;
+}
+
+div.container.home{
+  margin-top:3em;
+  max-width: 94%;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
