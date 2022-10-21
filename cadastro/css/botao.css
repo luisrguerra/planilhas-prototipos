@@ -16,3 +16,7 @@ button.login{
 button.login:hover{
     background-color: var(--verdeLoginHover);
 }
+
+button,a{
+    user-select: none;
+}
