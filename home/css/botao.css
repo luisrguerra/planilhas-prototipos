@@ -10,7 +10,6 @@ button.cartao{
     text-align: left;
     min-width: 11em;
     
-
     transition: color .15s ease-in-out,
     background-color .2s ease-in-out,
     border-color .15s ease-in-out,
@@ -21,4 +20,10 @@ button.cartao:hover{
 }
 button.cartao:active {
     background-color: #e651000d;
+}
+
+button,a{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
