@@ -1,18 +1,17 @@
-:root {
-    --verdeLogin: rgb(55, 150, 56);
-    --verdeLoginHover: rgb(52 137 52);
-}
+button.cartao{
+    background-color: transparent;
+    border: solid 1px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+    padding-inline: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
 
-button.login{
-    width: 100%;
-    font-size: 1.4em;
-    border-radius: 8px;
-    background-color: var(--verdeLogin);
-    color:white;
-    border:none;
-    padding-block: 0.4em;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
 }
-button.login:hover{
-    background-color: var(--verdeLoginHover);
+button.cartao:hover{
+    border: solid 1px #e65100;
 }
