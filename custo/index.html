@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Início</title>
+
+        <meta charset="utf-8">
+        <!-- Melhoria da visualização em smartphones -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- Ícones -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./css/botao.css">
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/home.css">
+        
+    </head>
+
+<body>
+
+<nav class="navbar navbar-light bg-light barra">
+    <a class="navbar-brand" href="#">
+      <img style="margin-left: 1em;" src="./img/logo-navbar-otimizado.svg" height="41" alt="">
+    </a>
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+           <a class="nav-link active logout antes" href="https://luisrguerra.github.io/planilhas-prototipos/login/">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
+        </li>
+    </ul>
+
+    <ul class="nav centralizar">
+      <li class="nav-item">
+        <button onclick="window.location.href='https://luisrguerra.github.io/planilhas-prototipos/home/';" class="icone">
+         <i class="fa-solid fa-house"></i>
+         <p style="margin: 0;">Início</p>
+        </button>
+      </li>
+
+      <li class="nav-item">
+        <button onclick="window.location.href='https://luisrguerra.github.io/planilhas-prototipos/fluxo/';" class="icone">
+         <i class="fa-solid fa-calendar-day"></i>
+         <p style="margin: 0;">Fluxo</p>
+        </button>
+      </li>
+
+      <li class="nav-item">
+        <button class="icone selecionado">
+         <i class="fa-solid fa-chart-column"></i>
+         <p style="margin: 0;">Custo</p>
+        </button>
+      </li>
+
+    </ul>
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+           <a class="nav-link active logout" href="https://luisrguerra.github.io/planilhas-prototipos/login/">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
+        </li>
+    </ul>
+
+</nav>
+
+<div class="container home">
+  <div class="row">
+
+    <div style="min-width: 12em;margin-right: 1em;margin-bottom: 1.5em;" class="col-sm prevent-select">
+      <h4>Custo operacional</h4>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
+

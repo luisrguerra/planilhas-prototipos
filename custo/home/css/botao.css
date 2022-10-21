@@ -1,0 +1,27 @@
+button.cartao{
+    background-color: transparent;
+    border: solid 1px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+    padding-inline: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    text-align: left;
+    min-width: 11em;
+    
+    transition: color .15s ease-in-out,
+    background-color .2s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+button.cartao:hover{
+    border: solid 1px #e65100;
+}
+button.cartao:active {
+    background-color: #e651000d;
+}
+
+button,a{
+    user-select: none;
+}
