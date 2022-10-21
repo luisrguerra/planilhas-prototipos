@@ -13,3 +13,8 @@
 .saldoPositivo{
   color:#188038;
 }
+
+div.container.home{
+  margin-top:3em;
+  max-width: 94%;
+}
