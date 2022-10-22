@@ -28,3 +28,12 @@ div.container.home{
 .fit{
   width: fit-content;
 }
+
+select.form-select{
+  box-shadow: none !important;
+}
+
+select.form-select:active, select.form-select:focus{
+  border-color:#007bff;
+  border-width: 2px;
+}
