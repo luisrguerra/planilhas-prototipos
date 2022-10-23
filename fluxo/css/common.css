@@ -33,5 +33,15 @@ select.form-select{
 
 select.form-select:active, select.form-select:focus{
   border-color:#007bff;
-  border-width: 2px;
+}
+
+table.planilha{
+  --bs-table-border-color: rgba(0, 0, 0, 0.24);
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.03);
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.11);
+}
+
+.planilha thead{
+  border-top-color:transparent;
+  border-inline-color:transparent;
 }

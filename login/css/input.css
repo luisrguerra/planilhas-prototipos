@@ -3,7 +3,6 @@ input.form-control{
 }
 input.form-control:active, input.form-control:focus{
     border-color:#007bff;
-    border-width: 2px;
 }
 
 .form-floating>label{
