@@ -37,8 +37,8 @@ select.form-select:active, select.form-select:focus{
 
 table.planilha{
   --bs-table-border-color: rgba(0, 0, 0, 0.24);
-  --bs-table-striped-bg: rgba(0, 0, 0, 0.03);
-  --bs-table-hover-bg: rgba(0, 0, 0, 0.11);
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.02);
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.06);
 }
 
 .planilha thead{
