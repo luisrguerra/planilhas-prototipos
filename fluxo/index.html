@@ -81,10 +81,10 @@
       <h4>Ano:</h4>
     </div>
 
-    <div style="margin-bottom: 1em;" class="col-sm-3"> <!--seletor dropdown-->
+    <div style="margin-bottom: 1em;" class="col-sm-3 prevent-select"> <!--seletor dropdown-->
       <select class="form-select" aria-label="Default select example">
-        <option selected value="2021">2021</option>
-        <option value="2022">2022</option>
+        <option selected value="2021">2022</option>
+        <option value="2022">2021</option>
       </select>
     </div>
 
@@ -92,7 +92,7 @@
       <h4>Mês:</h4>
     </div>
 
-    <div style="margin-bottom: 1em;" class="col-sm-3"> <!--seletor dropdown-->
+    <div style="margin-bottom: 1em;" class="col-sm-3 prevent-select"> <!--seletor dropdown-->
       <select class="form-select" aria-label="Default select example">
         <option selected value="Outubro">Outubro</option>
         <option value="Setembro">Setembro</option>
@@ -110,28 +110,28 @@
 
       <thead> <!-- Títulos das colunas da planilha -->
       <tr class="prevent-select">
-        <th scope="col">Data</th>
-        <th scope="col">Conta de entrada ou saída</th>
-        <th scope="col">Histórico de lançamento</th>
-        <th scope="col">Valor R$</th>
+        <th>Data</th>
+        <th>Conta de entrada ou saída</th>
+        <th>Histórico de lançamento</th>
+        <th>Valor R$</th>
       </tr>
       </thead>
       
       <tbody> <!-- Conteúdo da Planilha -->
       <tr> <!-- Linha 1 -->
-        <td scope="row">01/08/2022</td> <!-- coluna 1-->
+        <td>01/08/2022</td> <!-- coluna 1-->
         <td>Entrada em dinheiro</td>
         <td>Pagamento Cliente</td>
         <td>8.000,00</td>
       </tr>
       <tr>
-        <td scope="row">02/08/2022</td>
+        <td>02/08/2022</td>
         <td>Recebimento Depósito/Boleto</td>
         <td>Reembolso máquina quebrada</td>
         <td>2.100,00</td>
       </tr>
       <tr>
-        <td scope="row">03/08/2022</td>
+        <td>03/08/2022</td>
         <td>Funcionários</td>
         <td>Salários</td>
         <td>-23.000,00</td>
