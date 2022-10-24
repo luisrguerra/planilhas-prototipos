@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Custo Operacional</title>
+
+        <meta charset="utf-8">
+        <!-- Melhoria da visualização em smartphones -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Bootstrap 5.2 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        
+        <!-- Ícones -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- Carregar CSS -->
+        <link rel="stylesheet" href="./css/botao.css">
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/common.css">
+        
+    </head>
+
+<body>
+
+<nav class="navbar navbar-light bg-light barra"> <!-- Barra superior -->
+
+  <a class="navbar-brand" href="../login/"> <!--logotipo-->
+      <img style="margin-left: 1em;" src="./img/logo-navbar-otimizado.svg" height="41" alt="">
+    </a>
+
+    <ul class="nav justify-content-end"> <!-- Botão de deslogar para resolu~ções pequenas -->
+        <li class="nav-item">
+           <a class="nav-link active logout antes" href="../login/">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
+        </li>
+    </ul>
+
+    <ul class="nav centralizar"> <!-- Botões do meio da barra de cima -->
+      <li class="nav-item">
+        <button onclick="window.location.href='../home/';" class="icone">
+         <i class="fa-solid fa-house"></i> <!-- icone -->
+         <p>Início</p>
+        </button>
+      </li>
+
+      <li class="nav-item">
+        <button onclick="window.location.href='../fluxo/';" class="icone">
+         <i class="fa-solid fa-cash-register"></i>
+         <p>Fluxo</p>
+        </button>
+      </li>
+
+      <li class="nav-item">
+        <button onclick="window.location.href='../custo/';" class="icone">
+         <i class="fa-solid fa-money-bill-transfer"></i>
+         <p>Custo</p>
+        </button>
+      </li>
+
+      <li class="nav-item">
+        <button onclick="window.location.href='../analise/';" class="icone selecionado">
+         <i class="fa-solid fa-chart-column"></i>
+         <p>Análise</p>
+        </button>
+      </li>
+
+    </ul> <!--Fim de "Botões do meio da barra de cima" -->
+
+    <ul class="nav justify-content-end"> <!-- Botão de deslogar padrão -->
+        <li class="nav-item">
+           <a class="nav-link active logout" href="../login/">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
+        </li>
+    </ul>
+
+</nav><!-- Fim da "Barra superior" -->
+
+<div class="container home"> <!-- Conteúdo da página -->
+
+
+  <div style="min-width: 12em;margin-right: 1em;margin-bottom: 1.5em;" class="col-sm prevent-select">
+    <h4>Custo Operacional</h4>
+  </div>
+
+
+
+  <div class="row"> <!-- Coluna seletor de intervalo de tempo -->
+
+    <div class="col-sm-1 fit prevent-select">
+      <h4>Ano:</h4>
+    </div>
+
+    <div style="margin-bottom: 1em;" class="col-sm-3 prevent-select"> <!--seletor dropdown-->
+      <select class="form-select" aria-label="Default select example">
+        <option selected value="2021">2022</option>
+        <option value="2022">2021</option>
+      </select>
+    </div>
+
+    <div class="col-sm-1 fit prevent-select">
+      <h4>Mês:</h4>
+    </div>
+
+    <div style="margin-bottom: 1em;" class="col-sm-3 prevent-select"> <!--seletor dropdown-->
+      <select class="form-select" aria-label="Default select example">
+        <option selected value="Outubro">Outubro</option>
+        <option value="Setembro">Setembro</option>
+        <option value="Agosto">Agosto</option>
+      </select>
+    </div>
+
+  </div> <!-- Fim de "coluna seletor de intervalo de tempo" -->
+
+
+    
+  <!-- Planilha -->
+  <div style="min-width: 12em;margin-block: 1.5em;" class="col-sm table-responsive">
+    <table class="table table-sm table-bordered planilha table-striped table-hover">
+
+      <thead> <!-- Títulos das colunas da planilha -->
+      <tr class="prevent-select">
+        <th>Categoria</th>
+        <th>Valor</th>
+        <th>Análise Vertical</th>
+      </tr>
+      </thead>
+      
+      <tbody> <!-- Conteúdo da Planilha -->
+      <tr> <!-- Linha 1 -->
+        <th>Recebimentos</th> <!-- coluna 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+      </tr>
+      <tr>
+        <th>Receita não opercaional</th> <!-- coluna 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+      </tr>
+      <tr>
+        <td>Entrada de dinheiro</td>
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+      </tr>
+      <tr>
+        <th>Saldo final</th>
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+      </tr>
+      </tbody> <!-- Fim do "Conteúdo da Planilha" -->
+
+    </table>
+  </div> <!-- Fim da planilha -->
+
+</div> <!-- Container -->
+
+</body>
+</html>
+

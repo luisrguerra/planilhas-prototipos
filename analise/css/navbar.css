@@ -1,0 +1,77 @@
+.navbar.bg-light.barra{
+    background-color: white !important;
+    border-bottom: solid 1px rgb(0 0 0 / 12%);
+}
+
+.nav-link.logout{
+    font-weight: 500;
+    font-size: 1.2em;
+    color:#5d5d5d;
+}
+
+/* Esconde o segundo logout para smartphone */
+.nav-link.logout.antes{
+    display: none;
+}
+
+.nav-link.logout:hover{
+    color:#d93025;
+}
+
+.nav-item button.icone{
+    border: none;
+    background: none;
+    color: rgb(0 0 0 / 50%);
+    position: relative;
+    bottom: -8px;
+    min-width: 5em;
+}
+
+.nav-item button.icone.selecionado{
+    border: none;
+    background: none;
+    color: rgb(0 0 0 / 90%);
+    border-bottom: solid 3px #E87830;
+}
+
+.nav-item button.icone:hover{
+    background: none;
+    color: rgb(0 0 0 / 90%);
+}
+
+.nav-item button.icone > p{
+    margin: 0;
+}
+
+.nav.centralizar{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Resoluções de smartphone */
+@media only screen and (max-width: 639px){
+    .nav.centralizar{
+        position: relative;
+        left: 0%;
+        transform: none;
+        margin-inline: auto;
+    }
+    .nav-item button.icone{
+        min-width: 4em;
+    }
+}
+
+@media only screen and (max-width: 513px){
+    .nav-item button.icone{
+        min-width: 4em;
+    }
+
+    .nav-link.logout{
+        display:none;
+    }
+
+    .nav-link.logout.antes{
+        display:initial;
+    }
+}
