@@ -66,27 +66,25 @@
 </nav>
 
 <div class="container home">
-  <div class="row">
 
-    <div style="min-width: 12em;margin-right: 1em;margin-bottom: 1.5em;" class="col-sm prevent-select">
-      <h4>Fluxo de Caixa</h4>
-    </div>
 
+  <div style="min-width: 12em;margin-right: 1em;margin-bottom: 1.5em;" class="col-sm prevent-select">
+    <h4>Fluxo de Caixa</h4>
   </div>
 
-  <div class="row">
+
+
+  <div class="row"> <!-- Coluna seletor de intervaulo de tempo -->
 
     <div class="col-sm-1 fit prevent-select">
       <h4>Ano:</h4>
     </div>
 
     <div style="margin-bottom: 1em;" class="col-sm-3">
-
       <select class="form-select" aria-label="Default select example">
         <option selected value="2021">2021</option>
         <option value="2022">2022</option>
       </select>
-
     </div>
 
     <div class="col-sm-1 fit prevent-select">
@@ -94,63 +92,64 @@
     </div>
 
     <div style="margin-bottom: 1em;" class="col-sm-3">
-
       <select class="form-select" aria-label="Default select example">
         <option selected value="Outubro">Outubro</option>
         <option value="Setembro">Setembro</option>
         <option value="Agosto">Agosto</option>
       </select>
-  
     </div>
 
-  <div class="row">
+  </div> <!-- Fim de "coluna seletor de intervaulo de tempo" -->
 
-    <div style="min-width: 12em;margin-block: 1.5em;" class="col-sm table-responsive">
-      <!-- Planilha -->
-      <table class="table table-sm table-bordered planilha table-striped table-hover">
-        <thead>
-        <tr class="prevent-select">
-          <th scope="col">Data</th>
-          <th scope="col">Conta de entrada ou saída</th>
-          <th scope="col">Histórico de lançamento</th>
-          <th scope="col">Valor R$</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td scope="row">01/08/2022</td>
-          <td>Entrada em dinheiro</td>
-          <td>Pagamento Cliente</td>
-          <td>8.000,00</td>
-        </tr>
-        <tr>
-          <td scope="row">02/08/2022</td>
-          <td>Recebimento Depósito/Boleto</td>
-          <td>Reembolso máquina quebrada</td>
-          <td>2.100,00</td>
-        </tr>
-        <tr>
-          <td scope="row">03/08/2022</td>
-          <td>Funcionários</td>
-          <td>Salários</td>
-          <td>-23.000,00</td>
-        </tr>
-        </tbody>
-      </table>
-      <!-- Fim da planilha -->
 
-      <div class="float-end">
-        <button type="button" class="btn btn-danger">Remover item <i class="fa-solid fa-trash"></i></button>
-        <button type="button" class="btn btn-success">Adicionar item <i class="fa-solid fa-plus"></i></button>
-      </div>
-
-    </div>
+    
+  <!-- Planilha -->
+  <div style="min-width: 12em;margin-block: 1.5em;" class="col-sm table-responsive">
+    <table class="table table-sm table-bordered planilha table-striped table-hover">
+      <!-- Títulos das colunas da planilha -->
+      <thead>
+      <tr class="prevent-select">
+        <th scope="col">Data</th>
+        <th scope="col">Conta de entrada ou saída</th>
+        <th scope="col">Histórico de lançamento</th>
+        <th scope="col">Valor R$</th>
+      </tr>
+      </thead>
+      
+      <!-- Conteúdo da Planilha -->
+      <tbody>
+      <tr>
+        <td scope="row">01/08/2022</td>
+        <td>Entrada em dinheiro</td>
+        <td>Pagamento Cliente</td>
+        <td>8.000,00</td>
+      </tr>
+      <tr>
+        <td scope="row">02/08/2022</td>
+        <td>Recebimento Depósito/Boleto</td>
+        <td>Reembolso máquina quebrada</td>
+        <td>2.100,00</td>
+      </tr>
+      <tr>
+        <td scope="row">03/08/2022</td>
+        <td>Funcionários</td>
+        <td>Salários</td>
+        <td>-23.000,00</td>
+      </tr>
+      </tbody>
+    </table>
+  </div> <!-- Fim da planilha -->
   
+    
+  <!-- Botões de adicionar/remover item da planilha de fluxo de caixa -->
+  <div class="float-end">
+    <button style="margin-bottom: 1em; margin-left: 0.75em;" type="button" class="btn btn-success float-end">Adicionar item <i class="fa-solid fa-plus"></i></button>
+    <button style="margin-bottom: 1em;" type="button" class="btn btn-danger float-end">Remover item <i class="fa-solid fa-trash"></i></button>
   </div>
+  
 
-  </div>
 
-</div>
+</div> <!-- Container -->
 
 </body>
 </html>
