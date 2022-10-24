@@ -14,6 +14,16 @@
   color:#188038;
 }
 
+td.saldoNegativo{
+  color:#d93025 !important;
+  font-weight: 700;
+}
+
+td.saldoPositivo{
+  color:#188038 !important;
+  font-weight: 700;
+}
+
 div.container.home{
   margin-top:3em;
   max-width: 94%;
