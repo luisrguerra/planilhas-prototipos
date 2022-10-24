@@ -24,7 +24,6 @@
 <body>
 
 <nav class="navbar navbar-light bg-light barra"> <!-- Barra superior -->
-
   <a class="navbar-brand" href="../login/"> <!--logotipo-->
       <img style="margin-left: 1em;" src="./img/logo-navbar-otimizado.svg" height="41" alt="">
     </a>
@@ -39,23 +38,31 @@
       <li class="nav-item">
         <button onclick="window.location.href='../home/';" class="icone">
          <i class="fa-solid fa-house"></i> <!-- icone -->
-         <p style="margin: 0;">Início</p>
+         <p>Início</p>
         </button>
       </li>
 
       <li class="nav-item">
-        <button class="icone selecionado">
+        <button onclick="window.location.href='../fluxo/';" class="icone selecionado">
          <i class="fa-solid fa-cash-register"></i>
-         <p style="margin: 0;">Fluxo</p>
+         <p>Fluxo</p>
         </button>
       </li>
 
       <li class="nav-item">
         <button onclick="window.location.href='../custo/';" class="icone">
-         <i class="fa-solid fa-chart-column"></i>
-         <p style="margin: 0;">Custo</p>
+         <i class="fa-solid fa-money-bill-transfer"></i>
+         <p>Custo</p>
         </button>
       </li>
+
+      <li class="nav-item">
+        <button onclick="window.location.href='../analise/';" class="icone">
+         <i class="fa-solid fa-chart-column"></i>
+         <p>Análise</p>
+        </button>
+      </li>
+
     </ul> <!--Fim de "Botões do meio da barra de cima" -->
 
     <ul class="nav justify-content-end"> <!-- Botão de deslogar padrão -->

@@ -9,6 +9,7 @@
     color:#5d5d5d;
 }
 
+/* Esconde o segundo logout para smartphone */
 .nav-link.logout.antes{
     display: none;
 }
@@ -38,13 +39,18 @@
     color: rgb(0 0 0 / 90%);
 }
 
+.nav-item button.icone > p{
+    margin: 0;
+}
+
 .nav.centralizar{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 545px){
+/* Resoluções de smartphone */
+@media only screen and (max-width: 639px){
     .nav.centralizar{
         position: relative;
         left: 0%;
@@ -56,7 +62,7 @@
     }
 }
 
-@media only screen and (max-width: 449px){
+@media only screen and (max-width: 513px){
     .nav-item button.icone{
         min-width: 4em;
     }
