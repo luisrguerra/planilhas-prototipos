@@ -14,6 +14,7 @@
         <!-- Ícones -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <link rel="stylesheet" href="./css/common.css">
         <link rel="stylesheet" href="./css/botao.css">
         <link rel="stylesheet" href="./css/navbar.css">
         <link rel="stylesheet" href="./css/input.css">
@@ -37,7 +38,7 @@
 </nav>
 
 <!--Conteudo pagina-->
-<div style="margin-top:4em;" class="container">
+<div style="margin-top:4em;" class="container prevent-select">
     
     <!--Titulo-->
     <h4 style="margin-bottom:1em; padding-left: 0.5em;">Adicionar item ao fluxo de caixa</h4>
@@ -63,7 +64,7 @@
             </select>
         </div>
     </div>
-    <div class="float-end">
+    <div onclick="window.location.href='../fluxo/';" class="float-end">
         <button style="margin-bottom: 1em; margin-left: 0.75em;" type="button" class="btn btn-success float-end">Adicionar item <i class="fa-solid fa-plus"></i></button>
     </div>
     

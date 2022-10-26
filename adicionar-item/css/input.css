@@ -8,12 +8,3 @@ input.form-control:active, input.form-control:focus{
 .form-floating>label{
     color:#424242;
 }
-
-select.form-select{
-  box-shadow: none !important;
-}
-  
-select.form-select:active, select.form-select:focus{
-  border-color:#007bff;
-}
-  

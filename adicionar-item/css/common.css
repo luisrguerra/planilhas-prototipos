@@ -1,0 +1,12 @@
+.prevent-select {
+    user-select: none;
+}
+
+select.form-select{
+    box-shadow: none !important;
+}
+    
+select.form-select:active, select.form-select:focus{
+    border-color:#007bff;
+}
+    
