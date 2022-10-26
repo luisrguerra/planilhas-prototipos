@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Login</title>
+
+        <meta charset="utf-8">
+        <!-- Melhoria da visualização em smartphones -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+        <!-- Ícones -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./css/botao.css">
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/input.css">
+        
+    </head>
+
+<body>
+
+<!--Barra superior-->
+<nav class="navbar navbar-light bg-light login">
+    <!--Logotipo-->
+    <a class="navbar-brand" href="../login/">
+      <img style="margin-left: 1em;" src="./img/logo-navbar-otimizado.svg" height="41" alt="">
+    </a>
+    <!--Botão de retornar-->
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+           <a class="nav-link active retornar" href="../fluxo/">Retornar <i class="fa-solid fa-chevron-right"></i></a>
+        </li>
+    </ul>
+</nav>
+
+<!--Conteudo pagina-->
+<div style="margin-top:4em;" class="container">
+    
+    <!--Titulo-->
+    <h4 style="margin-bottom:1em; padding-left: 0.5em;">Adicionar item ao fluxo de caixa</h4>
+    
+    <div style="margin-bottom:1em" class="row">
+        <div class="col-sm">
+             <!--Input Valor-->
+             <div class="form-floating">
+                 <input type="number" class="form-control" placeholder=" ">
+                 <label><i class="fa-solid fa-money-bill-1-wave"></i> Valor</label>
+             </div>
+        </div>
+        <div class="col-sm">
+            <select style="height: 58px;" class="form-select" aria-label="Default select example">
+                <option selected="" value="Receita operacional">Receita operacional</option>
+                <option value="Receita não operacional">Receita não operacional</option>
+                <option value="Despesas administrativas">Despesas administrativas</option>
+                <option value="Despesas com vendas">Despesas com vendas</option>
+                <option value="Despesas com manutenção">Despesas com manutenção</option>
+                <option value="Despesas financeiras">Despesas financeiras</option>
+                <option value="Investimentos correntes">Investimentos correntes</option>
+                <option value="Despesas tributárias e com pessoal">Despesas tributárias e com pessoal</option>
+            </select>
+        </div>
+    </div>
+    <div class="float-end">
+        <button style="margin-bottom: 1em; margin-left: 0.75em;" type="button" class="btn btn-success float-end">Adicionar item <i class="fa-solid fa-plus"></i></button>
+    </div>
+    
+</div>
+
+</body>
+</html>
+

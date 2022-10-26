@@ -1,0 +1,13 @@
+.navbar.bg-light.login{
+    background-color: white !important;
+    border-bottom: solid 1px rgb(0 0 0 / 12%);
+}
+
+.nav-link.retornar{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.nav-link.retornar:hover{
+    color:#0e53ba;
+}

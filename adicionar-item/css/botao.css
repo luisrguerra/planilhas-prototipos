@@ -1,0 +1,57 @@
+:root {
+    --verdeLogin: rgb(55, 150, 56);
+    --verdeLoginHover: rgb(52 137 52);
+    --bordaCinza: rgb(0 0 0 / 17%);
+    --laranjaEsqueceuSenha: #e65100;
+    --azulBotao: rgb(6 115 233);
+}
+
+button.login{
+    width: 100%;
+    font-size: 1.4em;
+    border-radius: 8px;
+    background-color: var(--verdeLogin);
+    color:white;
+    border:none;
+    padding-block: 0.4em;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button.login:hover{
+    background-color: var(--verdeLoginHover);
+}
+
+button.password{
+    margin-bottom:2em;
+    width: 100%;
+    height:2.5em;
+    border-radius: 8px;
+    font-weight: 500;
+    background: none;
+    border-color: var(--bordaCinza);
+    border-width: 1px;
+    color: var(--azulBotao);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button.password:hover{
+    border: solid 1px var(--azulBotao);
+}
+
+button.esqueceuSenha{
+    margin-bottom:2em;
+    width: 100%;
+    height:2.5em;
+    border-radius: 8px;
+    font-weight: 500;
+    background: none;
+    border-color: var(--bordaCinza);
+    border-width: 1px;
+    color: var(--laranjaEsqueceuSenha);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button.esqueceuSenha:hover{
+    border: solid 1px var(--laranjaEsqueceuSenha);
+}
+
+button,a{
+    user-select: none;
+}
