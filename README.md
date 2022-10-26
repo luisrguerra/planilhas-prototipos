@@ -1,3 +1,9 @@
+## Desenvolvido utilizando:
+- Bootstrap 5.2.2
+- Font Awesome 6.2
+
+Bibliotecas fornecidas pelo [cdnjs da Cloudflare](https://cdnjs.com/)
+
 # Links
 
 [Login](https://luisrguerra.github.io/planilhas-prototipos/login/)
@@ -9,3 +15,5 @@
 [Fluxo](https://luisrguerra.github.io/planilhas-prototipos/fluxo/)
 
 [Custo](https://luisrguerra.github.io/planilhas-prototipos/custo/)
+
+[Análise](https://luisrguerra.github.io/planilhas-prototipos/analise/)
