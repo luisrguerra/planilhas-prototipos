@@ -1,6 +1,6 @@
 ## Desenvolvido utilizando:
-- Bootstrap 5.2.2
-- Font Awesome 6.2
+- [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) 5.2.2
+- [Font Awesome](https://fontawesome.com/search) 6.2
 
 Bibliotecas fornecidas pelo [cdnjs da Cloudflare](https://cdnjs.com/)
 
