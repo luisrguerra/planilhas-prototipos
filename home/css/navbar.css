@@ -1,23 +1,39 @@
+/* Mudar o visual da navbar(barra superior)*/
 .navbar.bg-light.barra{
     background-color: white !important;
     border-bottom: solid 1px rgb(0 0 0 / 12%);
 }
 
+/* Mudar o visual do botão de deslogar na navbar no canto direito*/
 .nav-link.logout{
     font-weight: 500;
     font-size: 1.2em;
     color:#5d5d5d;
 }
 
-/* Esconde o segundo logout para smartphone */
+/* Esconde o segundo logout */
+/* Botão de logout que fica antes dos botões do meio*/
+/* É necessário em resoluções baixas, ex:smartphone */
 .nav-link.logout.antes{
     display: none;
 }
 
+/*Botão de Logout vermelho ao cobrir com o mouse*/
 .nav-link.logout:hover{
     color:#d93025;
 }
 
+/*Botão retornar para pagina anterior*/
+.nav-link.retornar{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+/*Deixar o botão retornar mais ecuro ao cobrir com mouse*/
+.nav-link.retornar:hover{
+    color:#0e53ba;
+}
+
+/*Botões de seleção de página que ficam no centro da navbar*/
 .nav-item button.icone{
     border: none;
     background: none;
@@ -26,51 +42,50 @@
     bottom: -8px;
     min-width: 5em;
 }
-
+/*Indicador que o você já está na página*/
 .nav-item button.icone.selecionado{
-    border: none;
-    background: none;
     color: rgb(0 0 0 / 90%);
     border-bottom: solid 3px #E87830;
 }
-
+/*Escurecer ao cobrir com o mouse*/
 .nav-item button.icone:hover{
-    background: none;
     color: rgb(0 0 0 / 90%);
 }
-
+/*Remover margem para caber na navbar*/
 .nav-item button.icone > p{
     margin: 0;
 }
 
+/*Centralizar o conteúdo da navbar*/
+/*Meio da tela*/
 .nav.centralizar{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
-/* Resoluções de smartphone */
+/* Resoluções de smartphone grande */
 @media only screen and (max-width: 639px){
+    /*Centraliza na div*/
+    /*não no centro da tela*/
     .nav.centralizar{
         position: relative;
         left: 0%;
         transform: none;
         margin-inline: auto;
     }
+    /*Diminui a largura dos botões*/
     .nav-item button.icone{
         min-width: 4em;
     }
 }
-
+/* Resoluções de smartphone pequeno */
 @media only screen and (max-width: 513px){
-    .nav-item button.icone{
-        min-width: 4em;
-    }
-
+    /*Muda a posição do logout para*/
+    /*antes dos botões*/
     .nav-link.logout{
         display:none;
     }
-
     .nav-link.logout.antes{
         display:initial;
     }
