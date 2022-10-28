@@ -6,14 +6,6 @@
   max-width: fit-content;
 }
 
-.saldoNegativo{
-  color:#d93025;
-}
-
-.saldoPositivo{
-  color:#188038;
-}
-
 div.container.home{
   margin-top:3em;
   max-width: 94%;
@@ -33,15 +25,4 @@ select.form-select{
 
 select.form-select:active, select.form-select:focus{
   border-color:#007bff;
-}
-
-table.planilha{
-  --bs-table-border-color: rgba(0, 0, 0, 0.24);
-  --bs-table-striped-bg: rgba(0, 0, 0, 0.02);
-  --bs-table-hover-bg: rgba(0, 0, 0, 0.06);
-}
-
-.planilha thead{
-  border-top-color:transparent;
-  border-inline-color:transparent;
 }

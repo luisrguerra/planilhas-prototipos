@@ -1,0 +1,31 @@
+/* Mudar aparência da planilha */
+table.planilha{
+    --bs-table-border-color: rgba(0, 0, 0, 0.24); /*Borda planilha*/
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.02); /*Fundo linha alternada*/
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.06); /*Fundo mouse cobrindo*/
+  }
+  
+/* Título das colunas da planilha*/
+.planilha thead{
+    border-top-color:transparent; /*Remover borda de cima*/
+    border-inline-color:transparent; /*Remover borda lateral*/
+    user-select: none; /* Impedir copiar colar */
+}
+
+
+.saldoNegativo{
+    color:#d93025;
+} 
+.saldoPositivo{
+    color:#188038;
+}
+
+/*Saldo colorido em negrito*/
+th.saldoNegativo{
+    color:#d93025 !important;
+    font-weight: 700;
+}  
+th.saldoPositivo{
+    color:#188038 !important;
+    font-weight: 700;
+}
