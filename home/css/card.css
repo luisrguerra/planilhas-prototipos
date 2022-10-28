@@ -1,0 +1,26 @@
+/* Aparência do botão tipo card*/
+button.cartao{
+    background-color: transparent;
+    border: solid 1px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+    padding-inline: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    text-align: left;
+    min-width: 11em;
+    
+    transition: color .15s ease-in-out, /*Adiciona transição entre a*/
+    background-color .2s ease-in-out,   /*mudança de cores*/ 
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+/*Borda azul ao cobrir com o mouse*/
+button.cartao:hover{
+    border: solid 1px #007bff;
+}
+/* fundo alaranjado ao clicar*/
+button.cartao:active {
+    background-color: rgb(0, 123, 255, 0.04);
+}
