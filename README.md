@@ -14,6 +14,8 @@ Bibliotecas fornecidas pelo [cdnjs da Cloudflare](https://cdnjs.com/)
 
 [Fluxo](https://luisrguerra.github.io/planilhas-prototipos/fluxo/)
 
+[Adicionar Item](https://luisrguerra.github.io/planilhas-prototipos/adicionar-item/)
+
 [Custo](https://luisrguerra.github.io/planilhas-prototipos/custo/)
 
 [Análise](https://luisrguerra.github.io/planilhas-prototipos/analise/)
