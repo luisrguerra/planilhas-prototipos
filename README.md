@@ -5,7 +5,7 @@
 Bibliotecas fornecidas pelo [cdnjs da Cloudflare](https://cdnjs.com/)
 
 ## Extensões recomendadas do Visual Studio Code para desenvolver este projeto
-- [Live Server]([https://luisrguerra.github.io/planilhas-prototipos/login/](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer))
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 # Links
 
