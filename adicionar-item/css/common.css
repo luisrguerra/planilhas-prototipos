@@ -9,4 +9,8 @@ select.form-select{
 select.form-select:active, select.form-select:focus{
     border-color:#007bff;
 }
+
+.fit{
+    width: fit-content;
+}
     

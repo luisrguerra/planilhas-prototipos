@@ -41,7 +41,84 @@
 <div style="margin-top:4em;" class="container prevent-select">
     
     <!--Titulo-->
-    <h4 style="margin-bottom:1em; padding-left: 0.5em;">Adicionar item ao fluxo de caixa</h4>
+    <h4 style="margin-bottom:1em;">Adicionar item ao fluxo de caixa</h4>
+    
+
+    <!-- Selecionar categoria -->
+    <div style="margin-bottom:1em" class="col-sm">
+      <select style="height: 58px;" class="form-select" aria-label="Default select example">
+        <option selected disabled value="">Categoria</option>
+        <optgroup label="Receita operacional">
+          <option value="Entrada em dinheiro">Entrada em dinheiro</option>
+          <option value="Recebimento cartões">Recebimento cartões</option>
+          <option value="Recebimento cheque">Recebimento cheque</option>
+          <option value="Recebimento depósito/boleto">Recebimento depósito/boleto</option>
+        </optgroup>
+        <optgroup label="Receita não operacional">
+          <option value="Empréstimos bancários adquiridos">Empréstimos bancários adquiridos</option>
+          <option value="Descontos cheques">Descontos cheques</option>
+          <option value="Antecipação cartão">Antecipação cartão</option>
+          <option value="Saque aplicações">Saque aplicações</option>
+          <option value="Outras receitas">Outras receitas</option>
+        </optgroup>
+        <optgroup label="Despesas administrativas">
+          <option value="Aluguel">Aluguel</option>
+          <option value="Energia">Energia</option>
+          <option value="Água">Água</option>
+          <option value="Telefone">Telefone</option>
+          <option value="Internet">Internet</option>
+          <option value="Seguros">Seguros</option>
+          <option value="Contador">Contador</option>
+          <option value="Sistema">Sistema</option>
+          <option value="Advogado">Advogado</option>
+        </optgroup>
+        <optgroup label="Despesas com vendas">
+          <option value="Marketing">Marketing</option>
+          <option value="Patrocínio">Patrocínio</option>
+          <option value="Despesas de cartão de crédito">Despesas de cartão de crédito</option>
+          <option value="Devolução Mercadoria">Devolução Mercadoria</option>
+          <option value="Serasa">Serasa</option>
+          <option value="CDL">CDL</option>
+        </optgroup>
+        <optgroup label="Despesas com manutenção">
+          <option value="Oficina">Oficina</option>
+          <option value="Documentos/ Manut. Veículos">Documentos/ Manut. Veículos</option>
+          <option value="Combustível">Combustível</option>
+          <option value="Material de consumo">Material de consumo</option>
+        </optgroup>
+        <optgroup label="Despesas financeiras">
+          <option value="Juros de custódia">Juros de custódia</option>
+          <option value="Juros de limite">Juros de limite</option>
+          <option value="Juros de financiamento">Juros de financiamento</option>
+          <option value="Juros de duplicatas">Juros de duplicatas</option>
+          <option value="Tarifa bancária">Tarifa bancária</option>
+          <option value="Empréstimos bancários pagos">Empréstimos bancários pagos</option>
+        <optgroup label="Custos">
+          <option value="Mercadorias">Mercadorias</option>
+          <option value="Frete de entrada">Frete de entrada</option>
+        </optgroup>
+        <optgroup label="Investimentos correntes">
+          <option value="Investimento interno">Investimento interno</option>
+          <option value="Aplicações">Aplicações</option>
+          <option value="Consórcio">Consórcio</option>
+        </optgroup>
+        <optgroup label="Despesas tributárias e com pessoal">
+          <option value="Impostos fiscais">Impostos fiscais</option>
+          <option value="Funcionários">Funcionários</option>
+          <option value="Pró-labore">Pró-labore</option>
+          <option value="Vale transporte">Vale transporte</option>
+          <option value="Cheque devolvido ao cliente">Cheque devolvido ao cliente</option>
+        </optgroup>
+        <optgroup label="Investimentos de longo prazo">
+          <option value="Investimento Externo">Investimento Externo</option>
+          <option value="Compra de imóveis">Compra de imóveis</option>
+          <option value="Outros investimentos de longo prazo">Outros investimentos de longo prazo</option>
+          <option value="Transporte de saldo">Transporte de saldo</option>
+          <option value="Saldo inicial de caixa">Saldo inicial de caixa</option>
+        </optgroup>
+      </select>
+    </div>
+    <!-- Fim de "Selecionar categoria" -->
     
     <div class="row">
         <div style="margin-bottom:1em" class="col-sm">
@@ -52,78 +129,14 @@
              </div>
         </div>
         <div style="margin-bottom:1em" class="col-sm">
-            <select style="height: 58px;" class="form-select" aria-label="Default select example">
-                <optgroup label="Receita operacional">
-                  <option selected="" value="Entrada em dinheiro">Entrada em dinheiro</option>
-                  <option value="Recebimento cartões">Recebimento cartões</option>
-                  <option value="Recebimento cheque">Recebimento cheque</option>
-                  <option value="Recebimento depósito/boleto">Recebimento depósito/boleto</option>
-                </optgroup>
-                <optgroup label="Receita não operacional">
-                  <option value="Empréstimos bancários adquiridos">Empréstimos bancários adquiridos</option>
-                  <option value="Descontos cheques">Descontos cheques</option>
-                  <option value="Antecipação cartão">Antecipação cartão</option>
-                  <option value="Saque aplicações">Saque aplicações</option>
-                  <option value="Outras receitas">Outras receitas</option>
-                </optgroup>
-                <optgroup label="Despesas administrativas">
-                  <option value="Aluguel">Aluguel</option>
-                  <option value="Energia">Energia</option>
-                  <option value="Água">Água</option>
-                  <option value="Telefone">Telefone</option>
-                  <option value="Internet">Internet</option>
-                  <option value="Seguros">Seguros</option>
-                  <option value="Contador">Contador</option>
-                  <option value="Sistema">Sistema</option>
-                  <option value="Advogado">Advogado</option>
-                </optgroup>
-                <optgroup label="Despesas com vendas">
-                  <option value="Marketing">Marketing</option>
-                  <option value="Patrocínio">Patrocínio</option>
-                  <option value="Despesas de cartão de crédito">Despesas de cartão de crédito</option>
-                  <option value="Devolução Mercadoria">Devolução Mercadoria</option>
-                  <option value="Serasa">Serasa</option>
-                  <option value="CDL">CDL</option>
-                </optgroup>
-                <optgroup label="Despesas com manutenção">
-                  <option value="Oficina">Oficina</option>
-                  <option value="Documentos/ Manut. Veículos">Documentos/ Manut. Veículos</option>
-                  <option value="Combustível">Combustível</option>
-                  <option value="Material de consumo">Material de consumo</option>
-                </optgroup>
-                <optgroup label="Despesas financeiras">
-                  <option value="Juros de custódia">Juros de custódia</option>
-                  <option value="Juros de limite">Juros de limite</option>
-                  <option value="Juros de financiamento">Juros de financiamento</option>
-                  <option value="Juros de duplicatas">Juros de duplicatas</option>
-                  <option value="Tarifa bancária">Tarifa bancária</option>
-                  <option value="Empréstimos bancários pagos">Empréstimos bancários pagos</option>
-                <optgroup label="Custos">
-                  <option value="Mercadorias">Mercadorias</option>
-                  <option value="Frete de entrada">Frete de entrada</option>
-                </optgroup>
-                <optgroup label="Investimentos correntes">
-                  <option value="Investimento interno">Investimento interno</option>
-                  <option value="Aplicações">Aplicações</option>
-                  <option value="Consórcio">Consórcio</option>
-                </optgroup>
-                <optgroup label="Despesas tributárias e com pessoal">
-                  <option value="Impostos fiscais">Impostos fiscais</option>
-                  <option value="Funcionários">Funcionários</option>
-                  <option value="Pró-labore">Pró-labore</option>
-                  <option value="Vale transporte">Vale transporte</option>
-                  <option value="Cheque devolvido ao cliente">Cheque devolvido ao cliente</option>
-                </optgroup>
-                <optgroup label="Investimentos de longo prazo">
-                  <option value="Investimento Externo">Investimento Externo</option>
-                  <option value="Compra de imóveis">Compra de imóveis</option>
-                  <option value="Outros investimentos de longo prazo">Outros investimentos de longo prazo</option>
-                  <option value="Transporte de saldo">Transporte de saldo</option>
-                  <option value="Saldo inicial de caixa">Saldo inicial de caixa</option>
-                </optgroup>
-            </select>
+          <!--Input Data calendário-->
+          <div class="form-floating">
+              <input type="date" class="form-control" placeholder=" ">
+              <label>Data</label>
+          </div>
         </div>
     </div>
+
     <div style="margin-bottom:1em">
       <!--Input descrição-->
       <div class="form-floating">
@@ -132,9 +145,11 @@
       </div>
     </div>
 
+    <!--Botão adicionar-->
     <div onclick="window.location.href='../fluxo/';" class="float-end">
         <button style="margin-bottom: 1em; margin-left: 0.75em;" type="button" class="btn btn-success float-end">Adicionar item <i class="fa-solid fa-plus"></i></button>
-    </div>  
+    </div>
+
 </div>
 
 </body>
