@@ -11,29 +11,3 @@ table.planilha{
     border-inline-color:transparent; /*Remover borda lateral*/
     user-select: none; /* Impedir copiar colar */
 }
-
-
-.saldoNegativo{
-    color:#d93025;
-} 
-.saldoNegativo::selection {
-    color: white;
-    background: #d93025;
-}
-.saldoPositivo{
-    color:#188038;
-}
-.saldoPositivo::selection {
-    color: white;
-    background: #188038;
-}
-
-/*Saldo colorido em negrito*/
-th.saldoNegativo{
-    color:#d93025 !important;
-    font-weight: 700;
-}  
-th.saldoPositivo{
-    color:#188038 !important;
-    font-weight: 700;
-}
