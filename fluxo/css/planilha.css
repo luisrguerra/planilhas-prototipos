@@ -16,8 +16,16 @@ table.planilha{
 .saldoNegativo{
     color:#d93025;
 } 
+.saldoNegativo::selection {
+    color: white;
+    background: #d93025;
+}
 .saldoPositivo{
     color:#188038;
+}
+.saldoPositivo::selection {
+    color: white;
+    background: #188038;
 }
 
 /*Saldo colorido em negrito*/

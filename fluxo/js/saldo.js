@@ -1,11 +1,12 @@
 const allSaldoByClass = document.getElementsByClassName('saldo');
 for (let contagem = 0; contagem < allSaldoByClass.length; contagem++) {
-  const texto = allSaldoByClass[contagem].textContent;
+  const element =  allSaldoByClass[contagem];
+  const texto = element.textContent;
   const isNegativo = texto.includes("-");
   if (isNegativo){
-    allSaldoByClass[contagem].style.color = '#d93025';
+   element.classList.add("saldoNegativo");
   }
   else{ /*positivo*/
-    allSaldoByClass[contagem].style.color = '#188038';
+   element.classList.add("saldoPositivo");
   }
 }
