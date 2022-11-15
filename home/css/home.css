@@ -6,14 +6,6 @@
   max-width: fit-content;
 }
 
-.saldoNegativo{
-  color:#d93025;
-}
-
-.saldoPositivo{
-  color:#188038;
-}
-
 div.container.home{
   margin-top:3em;
   max-width: 94%;
