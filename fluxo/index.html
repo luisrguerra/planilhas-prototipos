@@ -77,11 +77,35 @@
 <div class="container home"> <!-- Conteúdo da página -->
 
 
-  <div style="min-width: 12em;margin-right: 1em;margin-bottom: 1.5em;" class="col-sm prevent-select">
+  <div style="display:flex;min-width: 12em;margin-bottom: 1.5em;" class="prevent-select">
     <h4>Fluxo de Caixa</h4>
+    <!-- Botão de abrir janela com informações -->
+    <button type="button" style="background-color: rgb(238, 238, 238); margin-left: 1em;" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#info">
+      <i class="fa-solid fa-circle-info"></i>
+    </button>
   </div>
 
+  <!-- janela flutuante -->
+  <div class="modal fade prevent-select" id="info" tabindex="-1">
+   <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+    <!-- cabeçalho da janela -->
+    <div class="modal-header">
+     <!--Título ao topo da janela à esquerda -->
+     <!-- fs-5 define o tamaho do texto -->
+     <h1 class="modal-title fs-5">Fluxo de Caixa</h1>
+     <!-- Botão X de sair à direita -->
+     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
 
+    <div class="modal-body">
+     <p style="font-size: 1.1em;">Fluxo de caixa é como é chamado as movimentações financeiras de uma empresa. O quanto entra e quanto sai do caixa da empresa.</p>
+    </div>
+
+    </div> <!-- modal-content -->
+   </div> <!-- modal-dialog -->
+  </div> <!-- modal -->
 
   <div class="row"> <!-- Coluna seletor de intervaulo de tempo -->
 
