@@ -111,88 +111,206 @@
 
   </div> <!-- Fim de "coluna seletor de intervalo de tempo" -->
 
-
+  <style>
+    th.centro{
+      text-align:center;
+    }
+    table.planilhaAnalise{
+        --bs-table-border-color: rgba(0, 0, 0, 0.24); /*Borda planilha*/
+        --bs-table-striped-bg: rgba(0, 0, 0, 0.02); /*Fundo linha alternada*/
+        --bs-table-hover-bg: rgba(0, 0, 0, 0.06); /*Fundo mouse cobrindo*/
+    }
+  </style>
     
   <!-- Planilha -->
   <div style="min-width: 12em;margin-block: 1.5em;" class="col-sm table-responsive">
-    <table class="table table-sm table-bordered planilha table-striped table-hover">
-
-      <thead> <!-- Títulos das colunas da planilha -->
+    <table class="table table-sm table-bordered planilhaAnalise table-striped table-hover">
+      <thead> 
+      <tr class="centro">
+          <th class="transparente"></th>
+          <th class="centro" colspan="2">Mês 1</th>
+          <th class="centro" colspan="2">Mês 2</th>
+          <th class="centro" colspan="2">Mês 3</th>
+      </tr>
+      <thead>
       <tr>
         <th>Categoria</th>
-        <th>Valor</th>
-        <th>Análise Vertical</th>
+        <!--mes 1-->
+        <th class="centro">Valor</th>
+        <th class="centro">Análise Vertical</th>
+        <!--mes 2-->
+        <th class="centro">Valor</th>
+        <th class="centro">Análise Vertical</th>
+        <!--mes 3-->
+        <th class="centro">Valor</th>
+        <th class="centro">Análise Vertical</th>
       </tr>
-      </thead>
-      
       <tbody> <!-- Conteúdo da Planilha -->
       <tr> <!-- Linha 1 -->
         <th>1. Recebimentos</th> <!-- coluna 1-->
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <th>1.1 Receita não operacional</th> <!-- coluna 1-->
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Entrada de dinheiro</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Recebimentos cartões</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Recebimentos cheques</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Recebimentos depósitos/boletos</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <th>1.2 Receita não operacional</th> <!-- coluna 1-->
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Empréstimos bancários adquiridos</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Descontos cheques</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Antecipação cartão</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Saque de aplicações</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <td>Outras receitas</td>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <th>2 Pagamentos</th>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
       <tr>
         <th>Saldo final</th>
+        <!--mes 1-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 2-->
+        <td>R$ 0,00</td>
+        <td>0,00%</td>
+        <!--mes 3-->
         <td>R$ 0,00</td>
         <td>0,00%</td>
       </tr>
